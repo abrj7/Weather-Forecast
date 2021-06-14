@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form action="/" method="post">
+            <label for="cityInput">City Name: </label>
+            <input class="type-1" id="cityInput" type="text" name="cityName">
+                
+            <select name="units">
+                <option value="metric" selected>Metric(Celcius)</option>
+                <option value="imperial">Imperial(fahrenheit)</option>
+                <option value="standard">Standard(Kelvin)</option>
+            </select>
+            <button type="submit">Tell me the Weather!</button>
+        </form>
+    </body>
+</html>
