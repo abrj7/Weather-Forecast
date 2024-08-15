@@ -16,7 +16,7 @@ app.get('/style.css', function(req, res) {
 app.post("/", function(req, res){
     const query = req.body.cityName
 
-    const apiKey = "c7acc05bc562060735659b81b9e78268"
+    const apiKey = "<insert api-key>"
     const unit = req.body.units
     var unitSymbol = "";
 
